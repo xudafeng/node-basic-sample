@@ -2,6 +2,6 @@
 
 'use strict';
 
-var sample = require('..');
+var sample = require('../index');
 
 sample.server();

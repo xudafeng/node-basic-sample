@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+{% block content %}
+{% for item in list %}
+<div class="item">
+  <img src="{{ item }}"/>
+</div>
+{% endfor %}
+{% endblock %}
